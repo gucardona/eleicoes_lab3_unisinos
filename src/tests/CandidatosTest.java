@@ -56,6 +56,6 @@ public class CandidatosTest {
 
     @Test
     public void media_de_votos_recebidos_por_candidato() {
-        assertEquals(457.00, eleicoes.mediaVotos(listaCandidatos));
+        assertEquals(457.00, eleicoes.mediaVotos(listaCandidatos), 0.00);
     }
 }
